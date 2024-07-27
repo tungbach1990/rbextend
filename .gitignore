@@ -1,0 +1,11 @@
+/GameServer
+/GameServer2
+/node_modules/*
+/robrowser
+/robrowser/client/BGM/*
+/robrowser/client/data/*
+/robrowser/client/resources/*
+/robrowser/client/System/*
+/robrowser/dist/
+/robrowser/node_modules/
+/Supports/**

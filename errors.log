@@ -1,0 +1,13 @@
+[2024-06-08 16:25:36] [ERROR] YAMLException: duplicated mapping key (100873:7)
+
+ 100870 |     Race: Formless
+ 100871 |     RaceGroups:
+ 100872 |       EP172ALPHA: true
+ 100873 |       EP172ALPHA: true
+----------------^
+ 100874 |     Element: Neutral
+ 100875 |     ElementLevel: 2
+[2024-06-08 16:27:54] [ERROR] TypeError: doc.find is not a function
+[2024-06-08 16:28:26] [ERROR] TypeError: Cannot read properties of undefined (reading 'find')
+[2024-06-08 16:28:42] [ERROR] TypeError: Cannot read properties of undefined (reading 'find')
+[2024-06-08 16:30:44] [ERROR] ReferenceError: copnsole is not defined

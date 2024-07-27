@@ -1,0 +1,19 @@
+
+git rm -q -r -f --cached . && git add -A && git fetch upstream && git diff --color FETCH_HEAD -- .
+git rm -q -r -f --cached . && git add -A && git fetch upstream && git diff --color -- . FETCH_HEAD
+
+git fetch upstream && git diff --shortstat FETCH_HEAD -- . ":(exclude)examples/" ":(exclude)tools/" ":(exclude)src/Vendors/" ":(exclude)AI/" ":(exclude)applications/" ":(exclude)doc/"
+
+git config --global alias.jor-commit-all 'A'
+
+git fetch upstream && git diff -G. -w -b --stat --color FETCH_HEAD -- . ":(exclude)examples/" ":(exclude)tools/" ":(exclude)src/Vendors/" ":(exclude)AI/" ":(exclude)applications/" ":(exclude)doc/" ":(exclude)client/" ":(exclude)src/App/" ":(exclude)*/node_modules/*" ":(exclude)*_backup.js" ":(exclude)*_edit.js" ":(exclude)*.bak"
+
+find . -name "*dentity.lub"
+
+wsproxy -k /etc/httpd/conf.d/ssl.pem -c /etc/httpd/conf.d/ssl.pem -s -t 4 &
+
+git fetch upstream && git diff -G. --indent-heuristic --ignore-all-space FETCH_HEAD -- . ':!AI' ':!.gitattributes' ':!.htaccess' ':!applications' ':!client/.htaccess' ':!api.html' ':!api.js' ':!client/index.php' ':!index.php'
+
+git fetch upstream master && git difftool FETCH_HEAD
+
+ag --nohead --nobreak --ignore-dir={./src/Vendors/*,} -s -Q "mat4."
