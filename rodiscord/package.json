@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.15.3"
+    "discord.js": "^14.15.3",
+    "https-proxy-agent": "^7.0.5",
+    "websocket": "^1.0.35"
   }
 }
